@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomHunter BOT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sección de selector de idioma -->
+        <section class="language-selector">
+            <button onclick="changeLanguage('es')">Español</button>
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('pt')">Português</button>
+        </section>
+
+        <!-- Sección de héroe -->
+        <section class="hero">
+            <h1 data-translate="hero-title">RandomHunter BOT</h1>
+            <p id="hero-text" data-translate="hero-text">Mejora tu experiencia en Hunt: Showdown con nuestro bot en Discord.</p>
+            <a href="https://discord.com/oauth2/authorize?client_id=1368678521781616750&scope=bot&permissions=964488939584" class="button" data-translate="add-bot-button">Añadir Bot</a>
+        </section>
+
+        <!-- Sección de información -->
+        <section id="info" class="info">
+    <h2 data-translate="about-bot-title">Sobre el Bot</h2>
+    <p id="info-text" data-translate="info-text">
+        RandomHunter BOT es un bot diseñado para interactuar con los jugadores de Hunt: Showdown.
+        Ofrece una variedad de herramientas para mejorar tu experiencia dentro del juego y la comunidad.
+    </p>
+    <img src="/img/imagebot.png" alt="Imagen del Bot" class="bot-image">
+    </section>
+
+<!-- Sección de comandos -->
+<!-- Contenedor principal -->
+<div class="container">
+
+  <!-- Sección de comandos -->
+<section class="commands">
+    <h2 id="commands-title" data-translate="commands.title">Comandos del Bot</h2>
+    <p id="commands-description" data-translate="commands.description">Estos son los comandos disponibles en RandomHunter BOT:</p>
+    <ul>
+        <li><strong id="command-loadout" data-translate="commands.loadout">/loadout: Genera un equipamiento aleatorio.</strong></li>
+        <li><strong id="command-challenge" data-translate="commands.challenge">/challenge: Te da un desafío aleatorio.</strong></li>
+        <li><strong id="command-language" data-translate="commands.language">/language: Cambia el idioma del bot.</strong></li>
+        <li><strong id="command-donate" data-translate="commands.donate">/donate: Muestra el enlace para apoyar el proyecto.</strong></li>
+        <li><strong id="command-version" data-translate="commands.version">/version: Muestra la versión actual del bot.</strong></li>
+    </ul>
+</section>
+
+</div>
+
+
+        <!-- Sección de Discord -->
+        <section id="discord" class="discord">
+            <h2 data-translate="join-discord-title">Únete a nuestro Discord</h2>
+            <a href="https://discord.gg/BUk4vjArH9" class="button" data-translate="discord-join-button">Unirte</a>
+        </section>
+
+        <!-- Sección de donación -->
+        <section id="donate" class="donate">
+            <h2 data-translate="support-project-title">Apoya el Proyecto</h2>
+            <a href="https://ko-fi.com/randomhunterbot" class="button" data-translate="donate-button">Donar</a>
+        </section>
+
+        <!-- Preguntas Frecuentes -->
+        <section id="faq" class="faq">
+            <h2 data-translate="faq-title">Preguntas Frecuentes</h2>
+            <ul id="faq-list">
+                <li>
+                    <span data-translate="faq-1">¿Cómo añado el bot a mi servidor?</span>
+                    <p data-translate="faq-1-answer">Para añadir el bot a tu servidor, haz clic en el botón 'Añadir Bot' y sigue las instrucciones.</p>
+                </li>
+                <li>
+                    <span data-translate="faq-2">¿Qué permisos necesita el bot?</span>
+                    <p data-translate="faq-2-answer">El bot necesita permisos para enviar mensajes, leer mensajes y gestionar comandos.</p>
+                </li>
+                <li>
+                    <span data-translate="faq-3">¿Dónde puedo encontrar más información sobre el bot?</span>
+                    <p data-translate="faq-3-answer">Puedes encontrar más información sobre el bot en nuestro Discord y en el sitio web oficial.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p data-translate="footer-credits">&copy; 2025 RandomHunter BOT. Desarrollado por C&S Collabs.</p>
+        <p data-translate="footer-contact">¿Problemas o sugerencias? <a href="mailto:support@cs-collabs.com">Contáctanos</a></p>
+        <p>
+            <a href="/docs/terminos-y-condiciones.html" data-translate="footer-terms">Términos y condiciones</a> | 
+            <a href="/docs/politica-de-privacidad.html" data-translate="footer-privacy">Política de privacidad</a>
+        </p>
+        <div class="cs-banner-container">
+            <img src="/img/Collabs_2_1.jpg" alt="C&S Collabs Banner" class="cs-banner">
+        </div>
+    </footer>
+</body>
+</html>

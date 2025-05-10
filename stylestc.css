@@ -1,0 +1,136 @@
+/* Estilo base para todo el cuerpo */
+body {
+  background-image: url('https://cdn.steamstatic.com/steamcommunity/public/images/items/594650/1c4ba6a30f7d5fd5bddc5fa66c62b2f0542079ca.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #e0e0e0;
+  min-height: 100vh; /* Asegura que cubra toda la altura de la pantalla */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5rem;
+    color: #ff6200;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+/* Estilo para las secciones de texto con énfasis */
+h2 {
+    font-size: 1.8rem;
+    color: #ff6200;
+    margin-top: 20px;
+}
+
+/* Enlaces en el footer */
+a {
+    color: #ff6200;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer oscuro y centrado */
+.footer {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
+
+.footer a {
+  color: #ff6200;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #e55b00;
+}
+.cs-banner-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.cs-banner {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+}
+
+.cs-banner:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+/* Estilo para hacer la página responsiva */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.95rem;
+    }
+}
+.commands {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.commands h2 {
+  font-size: 2rem;
+  color: #ff6200;
+  margin-bottom: 15px;
+}
+
+.commands p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.commands ul {
+  list-style: none;
+  padding: 0;
+}
+
+.commands li {
+  font-size: 1rem;
+  margin: 10px 0;
+}

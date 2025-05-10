@@ -1,0 +1,233 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  transition: all 0.2s ease;
+}
+
+/* Fondo con imagen y capa oscura */
+body {
+  background-image: url('https://cdn.steamstatic.com/steamcommunity/public/images/items/594650/1c4ba6a30f7d5fd5bddc5fa66c62b2f0542079ca.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #e0e0e0;
+  min-height: 100vh; /* Asegura que cubra toda la altura de la pantalla */
+}
+
+/* Capa oscura sobre el fondo */
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Añade una capa oscura */
+  z-index: -1; /* Coloca la capa oscura detrás del contenido */
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px;
+  z-index: 1; /* Asegura que el contenido esté por encima de la capa de fondo */
+}
+
+/* Selector de idioma con estilo sombrío */
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 8px 15px;
+  border-radius: 5px;
+  display: flex;
+  gap: 12px;
+}
+
+.language-selector button {
+  background: none;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.language-selector button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Sección de héroe con imagen oscura */
+.hero {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+              url('https://example.com/your-image.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 80px 20px;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.hero .button {
+  background-color: #ff6200;
+  padding: 12px 25px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.hero .button:hover {
+  background-color: #e55b00;
+}
+
+/* Sección de información con fondo oscuro */
+.info {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin: 30px 0;
+}
+
+.info h2 {
+  font-size: 2rem;
+  color: #ff6200;
+  margin-bottom: 15px;
+}
+
+.info p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.info img {
+  width: 100%;
+  max-width: 450px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* Sección de Discord, Donaciones y Preguntas frecuentes */
+.discord, .donate, .faq {
+  padding: 30px 20px;
+  background: rgba(0, 0, 0, 0.85);
+  margin: 20px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.discord h2, .donate h2, .faq h2 {
+  font-size: 1.8rem;
+  color: #ff6200;
+  margin-bottom: 20px;
+}
+
+/* Botones con tono oscuro y efectos */
+.discord .button, .donate .button {
+  padding: 12px 25px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.discord .button {
+  background-color: #5865F2;
+}
+
+.discord .button:hover {
+  background-color: #4752C4;
+}
+
+.donate .button {
+  background-color: #6c63ff;
+}
+
+.donate .button:hover {
+  background-color: #5a54e6;
+}
+
+/* Sección de preguntas frecuentes con estilo oscuro */
+.faq ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faq li {
+  font-size: 1rem;
+  margin: 12px 0;
+}
+
+.faq li a {
+  color: #ff6200;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.faq li a:hover {
+  color: #e55b00;
+  text-decoration: underline;
+}
+/* Footer oscuro y centrado */
+.footer {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
+
+.footer a {
+  color: #ff6200;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #e55b00;
+}
+.cs-banner-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.cs-banner {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+}
+
+.cs-banner:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
