@@ -19,7 +19,7 @@
   "commands.description": "Estos son los comandos disponibles en RandomHunter BOT:",
   "commands.loadout": "/loadout: Genera un equipamiento aleatorio.",
   "commands.challenge": "/challenge: Te da un desafío aleatorio.",
-  "commands.language": "/language: Cambia el idioma del bot.",
+  "commands.language": "/language: Cambia el idioma del bot (server admin only).",
   "commands.donate": "/donate: Muestra el enlace para apoyar el proyecto.",
   "commands.version": "/version: Muestra la versión actual del bot."
 

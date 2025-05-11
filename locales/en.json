@@ -2,8 +2,8 @@
   "hero-title": "RandomHunter BOT",
   "hero-text": "Enhance your experience in Hunt: Showdown with our Discord bot.",
   "add-bot-button": "Add Bot",
-  "about-bot-title": "About the Bot",
-  "info-text": "RandomHunter BOT is a bot designed to interact with Hunt: Showdown players. It offers a variety of tools to enhance your experience in the game and the community.",
+  "about-bot-title": "🧭 What is RandomHunter BOT?",
+  "info-text": "RandomHunter BOT is a Discord bot designed for Hunt: Showdown players. It lets you generate random loadout combinations, take on unique challenges, and much more. Perfect for those looking to add a fun and refreshing twist to their matches.",
   "join-discord-title": "Join Our Discord",
   "discord-join-button": "Join",
   "support-project-title": "Support the Project",
@@ -19,7 +19,7 @@
   "commands.description": "These are the available commands in RandomHunter BOT:",
   "commands.loadout": "/loadout: Generates a random loadout.",
   "commands.challenge": "/challenge: Gives you a random challenge.",
-  "commands.language": "/language: Changes the bot language.",
+  "commands.language": "/language: Changes the bot language (server admin only).",
   "commands.donate": "/donate: Shows the link to support the project.",
   "commands.version": "/version: Shows the current version of the bot."
 
